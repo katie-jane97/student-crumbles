@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+/*BACKGROUND IMAGE*/
+body {
+    background-image: url("sage-background.png");
+    background-size: 605px 1500px;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px
+}
+
+.padding {
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/*TEXT*/
+p {
+    color: rgb(92, 158, 120);
+    font-size: 25px;
+    font-family:'Homemade Apple', cursive;
+}
+
+.large {
+    font-size: 50xp
+}
+
+
+
+
+/*MAIN PAGE FLEXBOX*/
+.main-page {
+    display: flex;
+    align-items: flex-start;
+}
+
+.box04 {
+    color: rgb(111, 101, 114);
+    font-size: 50px;
+    font-family:'Dancing Script', cursive; 
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 1500px;
+    height: 650px;
+}
+
+
+
+
+/*NAVIGATION FLEXBOX*/
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+color: white;
+font-size: 25px;
+font-family:'Cookie', cursive;
+text-align: center;
+padding: 10px;
+width: 400px;
+height: 50px;
+}
+
+
+
+
+/*HEADER 1*/
+h1 {
+    color: rgb(235, 46, 93);
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive; 
+    text-align: center;
+    height: 75px;
+}
+
+.Header1 {
+    background-color: rgba(223, 247, 236, 0.63);
+    padding: 0px;
+    margin: 0px;
+    
+} 
+
+
+
+
+/*FLEXBOX FOR QUICK RECPIES*/
+
+.quick-recipe {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.box01 {
+    color: rgb(218, 17, 77);
+    font-size: 20px;
+    font-family:'Norican', cursive;
+    text-align: left;
+    padding: 10px;
+    width: 300px;
+    height: 970px;
+    }
+    
+    
+
+
+
+/*FLEXBOX FOR PARTY RECIPES*/    
+
+.party-recipe {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.box02 {
+    color: rgb(202, 5, 97);
+    font-size: 20px;
+    font-family:'Norican', cursive;
+    text-align: left;
+    padding: 10px;
+    width: 300px;
+    height: 1020px;
+    }
+    
+
+
+
+/*FLEXBOX FOR VEGAN RECIPES*/
+.vegan-recipe {
+    display: flex;
+    justify-content:space-evenly;
+    }
+    
+.box03 {
+    color: rgb(180, 3, 85);
+    font-size: 20px;
+    font-family:'Norican', cursive;
+    text-align: left;
+    padding: 10px;
+    width: 300px;
+    height: 973px;
+        }
+
+
+
+/*BOXES*/
+.box1 {background-color:#fcd9f488 ;}
+.box2 {background-color:#fcdff69d ;}
+.box3 {background-color:#fae1f8a1 ;}
+.box4 {background-color:#fae1f8a1 ;}
+.box5 {background-color:#fdcce3b6 ;} 
+.box6 {background-color:#fdd6e6c0 ;}
+.box7 {background-color:#ffdcecd0 ;}
+.box8 {background-color:#ffdceabb ;}
+.box9 {background-color:#fdcce3b6 ;}
+.box10 {background-color:#fdd6e6c0 ;}
+.box11 {background-color:#ffdcecd0 ;}
+.box12 {background-color:#ffdceabb ;}       
+.box13 {background-color:#fdcce3b6 ;}
+.box14 {background-color:#fdd6e6c0 ;}
+.box15 {background-color:#ffdcecd0 ;}
+.box16 {background-color:#ffdceabb ;}    
+.box17 {background-color: rgba(255, 226, 238, 0.815);}
+
+
+
+
+a:link {
+  color: rgb(207, 11, 103);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(212, 24, 87);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(153, 202, 184);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
